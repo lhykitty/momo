@@ -268,6 +268,7 @@ def build_agent(args):
 
 def build_arg_parser():
     parser = argparse.ArgumentParser(
+        prog="momo",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         description="Minimal coding agent for DeepSeek, OpenAI-compatible, Anthropic-compatible, or Ollama models.",
     )
